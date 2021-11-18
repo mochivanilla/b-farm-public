@@ -8171,7 +8171,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #fbceb5 !important; }
+  background: #96CB6D !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8331,8 +8331,8 @@ textarea.form-control {
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fbceb5 !important;
-    border: 1px solid #fbceb5 !important;
+    background: #96CB6D !important;
+    border: 1px solid #96CB6D !important;
     color: #000 !important; }
     .btn.btn-primary:hover {
       border: 1px solid #fbceb5;

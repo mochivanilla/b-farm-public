@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="{{ asset('assets/auth/css/style.css') }}">
 
 	</head>
-	<body class="img js-fullheight" style="background-image: url({{ asset('assets/auth/images/bg.jpg') }});">
+	<body class="img js-fullwidth" style="background-image: url({{ asset('assets/images/bg_selada.png') }});">
 	<section class="ftco-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -23,7 +23,7 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-						<h3 class="mb-4 text-center">Belum punya akun?</h3>
+						<h3 class="mb-4 text-center">Lengkapi data register</h3>
 						<form action="{{ route('user.register') }}" class="signin-form" method="POST">
 							@csrf
 							<div class="form-group">
@@ -52,6 +52,7 @@
 						</form>
 					</div>
 				</div>
+				
 			</div>
 		</div>
 	</section>

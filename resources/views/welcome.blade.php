@@ -1,4 +1,10 @@
 @extends('layouts.template')
 @section('content')
-<div class="hero" style="background-image: url('{{ asset('assets/images/bg_selada.jpg') }}');"></div>
+@include('partials.about')
+@include('partials.projects')
+@include('partials.services')
+@include('partials.latest-news')
+@include('partials.counter')
+@include('partials.team')
+@include('partials.contact-us')
 @endsection

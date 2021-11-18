@@ -1,4 +1,3 @@
-
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <form action="{{ route('login') }}" class="signin-form" method="POST">
@@ -16,7 +15,6 @@
                           </div>
                         <div class="form-group">
                             <input id="password-field" type="password" name="password" class="form-control" placeholder="Password" required>
-                            <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                         <br>
                         Belum punya akun? <a href="{{ route('register') }}">klik disini.</a>
@@ -24,7 +22,7 @@
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                  <button type="submit" class="btn btn-primary">Login</button>
+                  <button type="submit" class="btn btn-success">Login</button>
                 </div>
             </div>
         </form>
